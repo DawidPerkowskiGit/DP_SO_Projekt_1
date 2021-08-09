@@ -1,0 +1,4 @@
+04:05:ps -aux:0
+04:15:ls /etc/:2
+04:25:firefox google.pl pb.edu.pl degra.wi.pb.edu.pl/rozklady/rozklad.php?page=nst:2
+04:20:tail /var/log/syslog:2
