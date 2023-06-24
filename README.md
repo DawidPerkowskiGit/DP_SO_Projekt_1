@@ -2,7 +2,7 @@
 * [About application](#about-application)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [More detailed information about modules](#more-detailed-information-about-modules)
+* [More detailed information about application](#more-detailed-information-about-application)
 * [Application view](#application-view)
 
 ## About application
