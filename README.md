@@ -34,7 +34,7 @@ make minicron
 ## More detailed information about application
 
 Tasks file format is as follows:   
-<hour>:<minutes>:<command>:<info>   
+hour:minutes:command:info   
 hour - at which hour launch the task   
 minutes - at which minute of an hour launch task   
 command - any bash shell command   
