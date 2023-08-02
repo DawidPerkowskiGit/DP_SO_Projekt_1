@@ -33,15 +33,15 @@ make minicron
 
 ## More detailed information about application
 
-Tasks file format is as follows:
-<hour>:<minutes>:<command>:<info>
-hour - at which hour launch the task
-minutes - at which minute of an hour launch task
-command - any bash shell command
-info - parameter which describes how user wants to recieve additional task information.
-0 - user wants to recieve stdout information
-1 - user wants to recieve stderr information
-2 - user wants to recieve both stdout and stderr information
+Tasks file format is as follows:   
+<hour>:<minutes>:<command>:<info>   
+hour - at which hour launch the task   
+minutes - at which minute of an hour launch task   
+command - any bash shell command   
+info - parameter which describes how user wants to recieve additional task information.   
+0 - user wants to recieve stdout information   
+1 - user wants to recieve stderr information   
+2 - user wants to recieve both stdout and stderr information   
 
 Deamon reads file and chronogically sorts the task list. It goes to sleep and wakes up at the time when the first task has to be performed. It creates child process which executes the task and goes to sleep again. Deamon finishes work when performing all the tasks or recieving SIGINT signal. Additional ifrmation is printed in the terminal.
 
